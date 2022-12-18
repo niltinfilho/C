@@ -1,0 +1,75 @@
+* Aula 1.1 --------------------
+
+1 - Todos programas devem iniciar importando a biblioteca "stdio". Ela serve para interagir com o usuário, mostrar as coisas na tela, tanto para o usuário ler quanto para escrever;
+
+2 - Os programas são executados dentro da função "main", tudo que estiver ali dentro será executado, e tudo que estiver fora será ignorado;
+
+3 - Para mostrar algo na tela usa-se a função "printf("")";
+
+4 - Toda linha de comando deve terminar com um ";" no final;
+
+5 - A Linguagem C é uma linguagem compilada, ou seja, ela precisa de um programa para gerar um arquivo executável. Por isso, toda vez que fizer alguma alteração deverá compilar o arquivo novamente;
+
+6 - O programa quando compilado gera um arquivo ".exe", que só será aberto pela IDE ou editor. É possível também abrir direto no Windows, mas se for um arquivo pequeno (como o "helloworld.exe") a execução será muito rápida e nem será possível fazer a leitura dos textos dentro do terminal;
+
+    6.1 - Por isso, para abrir o arquivo direto no Windows seria preciso incluir outra biblioteca no programa, a "stdlib", e chamar a função "system("pause");", que serve para pausar a execução do programa e assim deixar o terminal aberto.
+
+
+
+* Aula 1.2 --------------------
+
+1 - Não é possível fazer o debug em um arquivo isolado, ele tem que estar dentro de um projeto (uma pasta);
+
+2 - Para fazer a depuração basta criar um "break point" em uma linha inicial do código e ir na aba "Executar e Depurar".
+
+
+
+* Aula 2.1 --------------------
+
+1 - Especificadores de formato dentro do "printf()":
+
+    d ou i  - números inteiros em base decimal;
+    X       - números inteiros em base hexadecimal;
+    f       - Números com casas decimais (flutuantes);
+    e       - Números em notação científica;
+    c       - Caracteres alfanuméricos (apenas 1 caractere);
+    s       - Sequência de caracteres alfanuméricos (string);
+    .<num>f - Especifica quantos dígitos serão impressos após a vírgula.
+
+2 - Sequências de escape dentro do "printf()":
+
+    \a   - Toca um "bipe", alarme sonoro padrão do sistema;
+    \b   - Backspace (TAB invertido);
+    \n   - Quebra de linha (<br>);
+    \t   - Tabulação horizontal (TAB);
+    \r   - Retorna ao início da linha;
+    \0   - Caractere nulo;
+    \v   - Tabulação vertical;
+    \\   - Imprime o caractere "\";
+    \'   - Imprime o caractere "''";
+    \"   - Imprime o caractere """;
+    \?   - Imprime o caractere "?";
+    %%   - Imprime o caractere "%";
+    \123 - Caractere relacionado ao código "123" em octal da tabela ASCII;
+    \X12 - Caractere relacionado ao código "12" em hexadecimal da tabela ASCII;
+
+3 - Os especificadores e as sequências servem como um "template" para serem formatados depois, passando o seu valor após a "," depois de fechar as "aspas";
+
+4 - Para imprimir apenas 1 caractere usa-se aspas simples (' '), e para uma string usa-se aspas duplas (" ").
+
+
+
+* Aula 2.2 --------------------
+
+1 - Entrada de dados (scanf)
+    Sintaxe: scanf(<formato>, &<v1>, &<v2>, ..., &<vN>);
+
+2 - Especificadores de formato dentro do "scanf()":
+
+    d ou i   - números inteiros em base decimal;
+    X        - números inteiros em base hexadecimal;
+    f        - Números com casas decimais (flutuantes);
+    e        - Números em notação científica;
+    c        - Caracteres alfanuméricos (apenas 1 caractere);
+    s        - Sequência de caracteres alfanuméricos (string);
+    [^chars] - Lê todos os dados digitados, exceto os especificados em "chars".
