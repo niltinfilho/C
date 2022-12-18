@@ -73,3 +73,5 @@
     c        - Caracteres alfanuméricos (apenas 1 caractere);
     s        - Sequência de caracteres alfanuméricos (string);
     [^chars] - Lê todos os dados digitados, exceto os especificados em "chars".
+
+3 - Para ler 2 ou mais valores em um mesmo "scanf" será necessário primeiramente indicar os formatos das variáveis
