@@ -34,7 +34,7 @@
     e       - Números em notação científica;
     c       - Caracteres alfanuméricos (apenas 1 caractere);
     s       - Sequência de caracteres alfanuméricos (string);
-    .<num>f - Especifica quantos dígitos serão impressos após a vírgula.
+    .<num> - Especifica quantos dígitos serão impressos após a vírgula.
 
 2 - Sequências de escape dentro do "printf()":
 
@@ -77,6 +77,6 @@
 3 - Para ler 2 ou mais valores em um mesmo "scanf" será necessário primeiramente indicar os formatos das variáveis antes da "," e depois as variáveis em sí.
     Ex: scanf("<formato1> <formato2>", <var1>, <var2>);
     Sendo o primeiro formato para a primeira variável e o segundo formato para a segunda variável, e assim por diante.
-
+    Mas isso não é muito aconselhado, o ideal seria fazer "scanf" separados.
 
 
