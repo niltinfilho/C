@@ -74,4 +74,9 @@
     s        - Sequência de caracteres alfanuméricos (string);
     [^chars] - Lê todos os dados digitados, exceto os especificados em "chars".
 
-3 - Para ler 2 ou mais valores em um mesmo "scanf" será necessário primeiramente indicar os formatos das variáveis
+3 - Para ler 2 ou mais valores em um mesmo "scanf" será necessário primeiramente indicar os formatos das variáveis antes da "," e depois as variáveis em sí.
+    Ex: scanf("<formato1> <formato2>", <var1>, <var2>);
+    Sendo o primeiro formato para a primeira variável e o segundo formato para a segunda variável, e assim por diante.
+
+
+
