@@ -113,3 +113,6 @@
 
     Isso quer dizer que essa variável consegue guardar até 50 caracteres.
 
+
+
+* Aula 3.2 --------------------
