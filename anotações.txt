@@ -80,3 +80,36 @@
     Mas isso não é muito aconselhado, o ideal seria fazer "scanf" separados.
 
 
+
+* Aula 3.1 --------------------
+
+1 - Variáveis são espaços na memória que armazenam dados que poderão ser ultilizados mais para frente;
+
+2 - Em C, não basta apenas invocar uma variável, antes você precisa declarar ela, indicando qual será o seu tipo (numérico, string, etc);
+
+3 - Regras de nomenclatura das variáveis:
+
+    - Não pode iniciar com um número, mas pode ter números depois (ex: num1, lado2);
+    - Não pode ter caracteres especiais (ex: ç, +, -, *, @, #);
+    - Não pode ter espaços;
+    - Pode apenas letras, sejam normais ou em caps lock, e underline (_).
+
+4 - Tipos de dados:
+
+    char   - carrega texto, caracteres alfanuméricos;
+    int    - armazena dados decimais, sem casa depois da vírgula;
+    float  - armazena dados decimais com casa após a vírgula;
+    double - armazena também números com casa após a vírgula porém com o dobro de precisão.
+
+5 - A diretiva "#define" cria um identificador para um dado de qualquer tipo. É uma variável que não pode ser alterada, ou seja, uma constante.
+
+6 - Sintaxe "#define", feita fora da função "main":
+
+    #define <nome> <valor>
+
+7 - Ao ultilizar o tipo "char" para armazenar um conjunto de caracteres, é preciso informar quantos caracteres cabem dentro daquela variável. Ex:
+
+    char nome[50] = "";
+
+    Isso quer dizer que essa variável consegue guardar até 50 caracteres.
+
