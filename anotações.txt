@@ -129,3 +129,12 @@
     int num1, num2, num3;
 
     Nesse caso, eu iniciei 3 variáveis do tipo inteiro de uma vez só.
+
+3 - Atribuições aritméticas:
+
+    ++ - Incremento em 1 unidade (+ 1);
+    -- - Decremento em 1 unidade (- 1);
+    += - Incremento genérico (pega o valor da variável e soma com um valor, atribuindo esse resultado na mesma variável);
+    -= - Decremento genérico (pega o valor da variável e subtrai um valor, atribuindo esse resultado na mesma variável);
+    *= - Atribuição com multiplicação (pega a variável e multiplica por um valor, atribuindo esse resultado na mesma variável);
+    /= - Atribuição com divisão (pega a variável e divide por um valor, atribuindo esse resultado na mesma variável);
