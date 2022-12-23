@@ -111,8 +111,21 @@
 
     char nome[50] = "";
 
-    Isso quer dizer que essa variável consegue guardar até 50 caracteres.
+    Isso quer dizer que essa variável consegue guardar até 50 caracteres;
+    E caso não seja informado quantos caracteres essa variável irá guardar, por padrão, ela vai salvar apenas 1 caractere.
 
 
 
 * Aula 3.2 --------------------
+
+1 - Operadores matemáticos, seguindo a ordem de prescedência:
+
+    ()    - Dentro de parênteses
+    * / % - Multiplicação, divisão, resto da divisão
+    + -   - Adição, subtração
+
+2 - Também é possível declarar mais de 1 variável por vez, sendo elas do mesmo tipo, apenas separando-as por vírgula. Ex:
+
+    int num1, num2, num3;
+
+    Nesse caso, eu iniciei 3 variáveis do tipo inteiro de uma vez só.
