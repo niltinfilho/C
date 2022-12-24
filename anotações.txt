@@ -138,3 +138,7 @@
     -= - Decremento genérico (pega o valor da variável e subtrai um valor, atribuindo esse resultado na mesma variável);
     *= - Atribuição com multiplicação (pega a variável e multiplica por um valor, atribuindo esse resultado na mesma variável);
     /= - Atribuição com divisão (pega a variável e divide por um valor, atribuindo esse resultado na mesma variável);
+
+
+
+* Aula 4.1 --------------------
